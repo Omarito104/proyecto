@@ -1,0 +1,1 @@
+select caj.pkncajero,caj.direccionc,caj.telefonoc,caj.nombre,caj.apellido,caj.email,caj.fechanacimiento,td.tipodocumento,ciudad.nombrec,estado.tipoestado from cajero as caj inner join tipodocumento as td on caj.fkidtipodocumento=td.pkidtipodocumento inner join ciudad on ciudad.pkidciudad=caj.fkidciudad inner join estado on estado.pkidestado=caj.fkidestado;

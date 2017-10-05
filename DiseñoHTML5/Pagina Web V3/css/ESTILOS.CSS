@@ -1,0 +1,127 @@
+@import url(menu.css);
+
+/* font */
+
+@font-face{
+	/*font-family: "MyFont";*/
+	src: url("../font/Jacinto Sans.ttf");
+}
+
+*{
+	/*font: 20px MyFont;*/
+	text-align: center;
+	box-sizing: border-box;
+	margin:5px;
+	padding:0;
+}
+
+
+body{
+	left:5px;
+	border:5px;  
+	background: url () no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	color: black;
+	text-align:center;
+	
+
+
+}
+
+#mipagina,#navegacion,#seccion,#columna,#pie{
+	background: Blue;
+	text-align: center;
+	border-radius: 10px;
+	margin: 5px;
+	width: 100%;
+
+}
+
+#mipagina{
+	border:10px; 
+	background:#33FFEC; 
+	width:100%; 
+	height:70px;
+	
+}
+
+#navegacion{ 
+	height:120px;
+	background:#088A85;
+
+}
+
+#seccion{
+	width:69%;
+	background: grey;
+	float: left;
+}
+
+#columna{
+	width: 29%;
+	background: #F7BE81;
+	float:right; 
+}
+
+#pie{
+	background:#33FFEC; 
+	width:1900px; 
+	height:50px; 
+	clear: both;
+}
+
+
+
+*{
+    top: 0;
+    margin: 0;
+    left: 0;
+}
+header{
+    width: 100%;
+    height: 680px;    
+}
+header{
+    overflow: hidden;
+}
+header img{
+    width: 100%;
+    height: 650px;
+}
+
+ul{
+	width: 100%
+	height:50px;
+	background: #33FFEC;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	border: 5%;
+}
+
+li{
+	display: inline;
+}
+
+ul li a {
+font-family: Arial;
+font-size:11px;
+text-decoration: none;
+float:left;
+padding: 10px;
+background-color: #2175bc;
+color: #fff;
+float: left;
+
+
+}
+
+ul a:hover {
+background-color: #2586d7;
+margin-top:-2px;
+padding-bottom:12px;
+}
+

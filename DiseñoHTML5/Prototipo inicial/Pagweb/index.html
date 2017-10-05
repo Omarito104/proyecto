@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="es">
+ 
+<head>
+	<title> restaurante especializado en pescado. </title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/Estilos.css" type="text/css" />
+</head>
+<body bgcolor="#0489B1">
+	<center>
+	<div id="mipagina">
+	<header>
+		<float>
+		
+		<h1>Sistema de información para la gestión de ventas del restaurante especializado en pescado.</h1>	
+		
+		<img src="foto/Restaurante.jpg" width="1400px" height="650px" border="7">
+		</float>
+	</header>
+
+
+	
+	<nav id="navegacion">
+		<h1>Menu</h1>	
+		<a href="index.html"><canvas id="iconoinicio" width="60" height="60"></canvas>Inicio</a>
+      <a href="noticias.html"><canvas id="icononosotros" width="60" height="60"></canvas>Nosotros</a>
+      <a href="sobremi.html"><canvas id="iconoservicios" width="60" height="60"></canvas>Servicios</a>
+      <a href="contacto.html"><canvas id="iconocontacto" width="60" height="60"></canvas>Contacto</a>
+
+	</nav>
+	
+	
+	<section id="seccion">
+	<float>
+		<img src="foto/SI.jpg" align="left" border="3">
+         <h1> Restaurante Especializado En Pescado </h1>  
+
+          <p> El sistema de información está especializado en un restaurante de comidas marinas,  como resultado de un estudio de necesidades de atención  al cliente en el momento que realiza y se le entrega el pedido de una forma rápida y de buena calidad en la ciudad de bogotá.
+          El Sistema de información ofrece la gestión de ventas de  un restaurante llevando un control de los precios de cada producto, la gestión de ventas y facturaciones, consulta del inventario (comida preparada) y la gestión de clientes.  
+         </p></br>
+
+            <h2>Fundaentos</h2>
+
+		   <p> El propósito de este proyecto es solucionar el problema que presenta el restaurante, creando un sistema de información orientado a la web, que permita gestionar las ventas y tener un registro de clientes
+
+            Al implementar este sistema se podrá tener una gestión completa de las ventas, lo cual agilizara todos los procesos en el restaurante.</p>
+            </br>
+
+          <h2>Objetivo</h2>
+
+           <p> Desarrollamos un sistema de información, orientado a la web que permita mantener el control de las actividades financieras del restaurante, implementando un sistema que gestione las ventas del pedido solicitado por el cliente, basado en el menú. </p>
+           </br>
+     </float>      
+	</section>
+
+
+
+	<aside id="columna">
+
+	  <h2>Proposito</h2>
+
+           <p>  Este documento tiene el propósito de definir los requerimientos funcionales y los no funcionales del sistema de información orientado a la web que permita mantener el control de las actividades financieras del restaurante, gestionar  las ventas y tener un registro de los clientes. </p>
+           </br>
+
+            <h2>Alcance</h2>
+
+           <p>El proyecto permite realizar un registro y control de los clientes que ingresan al restaurante, simultáneamente se hará un registro de los artículos vendidos con sus respectivos precios para que el gerente tenga conocimiento de la cantidad de ingresos generados</p>
+             </br>
+		
+	</aside>
+
+
+	<footer id="pie">
+		(c) copyright Año 2017 TECNOLOGO ANALIZADOR DESARROLLADOR DE SISTEMAS DE INFORMACION - SENA CEET
+	</footer>	
+		
+	</div>
+	</center>
+</body>
+<script type="text/javascript" charset="UTF-8">
+
+  var micolor = "Black";
+  var miotrocolor ="Grey";
+  var mitercercolor ="white";
+  var escala = 0.5;
+
+  //Dibijo el icono inicio
+
+  var c=document.getElementById("iconoinicio");
+  var cxt=c.getContext ("2d");
+
+  cxt.fillStyle=(micolor);
+  cxt.beginPath();
+  cxt.arc(escala*50,escala*25,escala*20,0,Math.PI*2,true);
+  cxt.closePath;
+  cxt.fill();
+  cxt.fillStyle=(micolor);
+  cxt.beginPath();
+  cxt.arc(escala*50,escala*90,escala*40,Math.PI,Math.PI*2,false);
+  cxt.closePath;
+  cxt.fill();
+
+  //Dibujo el icono nosotros
+
+  var c=document.getElementById("icononosotros");
+  var cxt=c.getContext("2d");
+  cxt.fillStyle=(miotrocolor);
+  cxt.beginPath();
+  cxt.arc(escala*50-10,escala*25,escala*20,0,Math.PI*2,true);
+  cxt.fill();
+  cxt.fillStyle=(miotrocolor);
+  cxt.beginPath();
+  cxt.arc(escala*50-10,escala*90,escala*40,Math.PI,Math.PI*2,false);
+  cxt.closePath;
+  cxt.fill();
+  cxt.fillStyle=(micolor);
+  cxt.beginPath();
+  cxt.arc(escala*50+10,escala*25,escala*20,0,Math.PI*2,true);
+  cxt.closePath;
+  cxt.fill();
+  cxt.fillStyle=(micolor);
+  cxt.beginPath();
+  cxt.arc(escala*50+10,escala*90,escala*40,Math.PI,Math.PI*2,false);
+  cxt.closePath;
+  cxt.fill();
+
+  //Dibujo el icono servicios
+
+  var c=document.getElementById("iconoservicios");
+  var cxt=c.getContext("2d");
+  cxt.fillStyle=(micolor);
+  cxt.beginPath();
+  cxt.arc(escala*50,escala*50,escala*40,0,Math.PI*2,true);
+  cxt.closePath;
+  cxt.fill();
+  cxt.fillStyle=(miotrocolor);
+  cxt.beginPath();
+  cxt.arc(escala*50,escala*50,escala*30,0,Math.PI*2,false);
+  cxt.closePath;
+  cxt.fill();
+  cxt.fillStyle=(micolor);
+  cxt.beginPath();
+  cxt.arc(escala*50,escala*50,escala*20,0,Math.PI*2,true);
+  cxt.closePath;
+  cxt.fill();
+
+  //Dibujo el icono contacto
+  var c=document.getElementById("iconocontacto");
+  var cxt=c.getContext("2d");
+
+  cxt.fillStyle=(micolor);
+  cxt.beginPath();
+  cxt.arc(escala*50,escala*50,escala*20,0,Math.PI*2,true);
+  cxt.closePath;
+  cxt.fill();
+
+  cxt.fillStyle=(micolor);
+  cxt.beginPath();
+  cxt.arc(escala*50,escala*50,escala*40,Math.PI,Math.PI*2,false);
+  cxt.closePath;
+  cxt.fill();
+
+</script>
+</html>
